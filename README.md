@@ -30,3 +30,6 @@ python3 cosmic_client.py
 8. ホスト側で`./scripts/final_1_attack_start.py`を実行すると疑似的な攻撃が開始されます
 
 ## video
+
+https://github.com/user-attachments/assets/4f7e0d1d-588c-422a-b956-27de0bb7a4be
+
