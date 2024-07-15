@@ -215,6 +215,9 @@ class CosmicClient:
             
         """
         
+        if self.lock.locked():
+            return
+        
         with self.lock:
             logging.info(f"Request block request list: {block_request_list}")
             for block_request in block_request_list:
