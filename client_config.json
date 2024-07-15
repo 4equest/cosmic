@@ -1,0 +1,18 @@
+{
+    "BUFFER_SIZE": 1024,
+    "LOG_DIR": "client_logs",
+    "LOG_LEBEL": "INFO",
+    "SERVER_PORT": 31014,
+    "NetworkWatcher": {
+        "sampling_period": 10,
+        "flow_timeout" : 60,
+        "update_count_threshold" : 10,
+        "data_size_threshold": 1000,
+        "update_count_threshold_syn": 10
+    },
+    "self_blocking": true,
+    "NetworkBlocker": {
+        "queue_num": 0,
+        "block_timeout_minutes": 5
+    }
+}
